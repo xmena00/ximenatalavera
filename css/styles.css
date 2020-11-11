@@ -54,11 +54,13 @@ h6 {
 
 p {
 	margin: 0 0 1.5em;
-	line-height: 1.5;
+	font-size: 0.9em;
+	line-height: 1.3;
 }
 
 blockquote {
 	padding: 1em 2em;
+	font-size:0.9em;
 	margin: 0 0 2em;
 	border-left: 2px dashed #333;
 }
@@ -198,7 +200,7 @@ footer {
 @media (min-width: 55em) {
     
     header {
-        padding: 1.55em 3em;
+        padding: 1em 3em;
     }
     
     nav {
@@ -210,7 +212,7 @@ footer {
 
     
     .contenido {
-        padding: 2em 3em;
+        padding: 2em 1.5em;
     }
 
     main {
@@ -229,7 +231,7 @@ footer {
     
     
     footer {
-        padding: 2em 3em;
+        padding: 0.5em 2em;
     }
 /* Dropdown Button */
 .dropbtn {
