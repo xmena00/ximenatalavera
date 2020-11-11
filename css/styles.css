@@ -1,0 +1,385 @@
+
+/* Estilos principales. */
+body {
+    device-width:100%;
+    text-align: justify;
+    margin: 90px;
+    padding: 0px;
+    color: #333;
+    background-color: #08416A;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 2.0;
+    margin: 0 0 .5em;
+    font-weight: 600;
+}
+
+/* 36px */
+h1 {
+    font-family: Bahnschrift;
+    font-size: 2.20em;
+}
+
+/* 28px */
+h2 {
+    font-family: times new roman;
+    font-size: 1.70em;
+    color: #E75B11
+}
+
+/* 22px */
+h3 {
+    font-family: times new roman;
+    font-size: 1.370em;
+}
+
+/* 18px */
+h4 {
+    font-family: times new roman;
+    font-size: 1.120em;
+}
+
+ /* 16px */
+h5 {
+    font-size: 1em;
+}
+
+/* 14px */
+h6 {
+    font-size: .870em;
+}
+
+p {
+	margin: 0 0 1.5em;
+	line-height: 1.5;
+}
+
+blockquote {
+	padding: 1em 2em;
+	margin: 0 0 2em;
+	border-left: 2px dashed #333;
+}
+
+hr {
+	height: 0;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border: 0;
+	border-top: 1px dashed #ddd;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+	background: #DA8062;
+	padding: 1em 1em;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+
+}
+
+
+
+
+.menu {
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+a:link {
+    color: cadetblue;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:focus {
+    color: black;
+}
+
+a:hover {
+    color: rgba(222, 10, 19, 0.700);
+}
+
+a:active {
+    color: rgba(222, 10, 19, 0.700);
+}
+
+.contenido {
+    overflow: hidden;
+    padding: 1em 1.25em;
+    background-color: #fff;
+}
+
+main, aside {
+    margin-bottom: 1em;
+}
+
+footer {
+    color:white;
+    background: #DA8062;
+    padding: 1em 1em;
+}
+
+/**/
+.imagen-responsiva {
+    max-width: 100%;
+}
+
+.boton {
+	color: white;
+	background-color:#08416A;
+	border-color: #fff;
+	display: inline-block;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: .2em;
+	text-decoration: none;
+}
+
+.boton:hover {
+	color: #fff !important;
+	background-color: white;
+}
+
+.boton:focus {
+	color: #fff !important;
+	background-color: rgba(222, 10, 19, 0.700);
+}
+
+.boton:active {
+	color: #fff !important;
+	background-color: rgba(222, 10, 19, 0.700);
+}
+
+.lista-sin-estilo {
+	padding-left: 0;
+	list-style: none;
+}
+
+.lista-enlinea {
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.lista-enlinea > li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/**/
+
+@media (min-width: 55em) {
+    
+    header {
+        padding: 1.55em 3em;
+    }
+    
+    nav {
+        padding: 1em 3em;
+    }
+
+
+ 
+
+    
+    .contenido {
+        padding: 2em 3em;
+    }
+
+    main {
+        float: left;
+        width:65%;
+        margin-right: 5%;
+        margin-bottom: 1em;
+    }
+
+    
+    aside {
+        float: left;
+        width: 30%;
+        margin-bottom: 1em;
+    }
+    
+    
+    footer {
+        padding: 2em 3em;
+    }
+/* Dropdown Button */
+.dropbtn {
+  background-color: #DA8062;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: #DA8062;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+
+
+
+div.scrollmenu {
+  background-color: #DA8062;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity:0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+ul.slider li:first-child{
+    opacity: 1;
+
+}
+ul.slider li:target{
+    
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 0.5em 1.25em;
+    color: #DA8062;
+    text-decoration: none;
+    border-bottom: 1px solid #DA8062;
+}
+
+.menu a:link {
+    color: #DA8062;
+}
+
+
+.menu a:visited {
+    color: #DA8062;
+}
+
+.menu a:focus {
+    color:black;
+    background-color: white;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: black;
+}
+
+.menu a:active {
+    color: white;
+    background-color: lightblue;
+}
+
