@@ -142,7 +142,8 @@ footer {
 
 /**/
 .imagen-responsiva {
-    max-width: 70%;
+    max-width: 60%;
+    min-width:40%;
 }
 
 .boton {
@@ -384,7 +385,7 @@ ul.slider li:target{
     color: white;
     background-color: lightblue;
 }
-li{
+li {
 	font-size: 0.9em;
 }
 
